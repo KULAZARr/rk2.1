@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+    .top-side {
+      display: flex;
+      align-items: stretch;
+      flex-direction: row;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(13, 13, 49);
+      }
+      a:hover {
+        color: rgb(111, 0, 255);
+        }
+    
+      header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(183, 247, 252);
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .main img{
+  
+        width: 2531px;
+        height: 1000px;
+      }    
+        .block2 img{
+           display: flex;
+            width: 600px;
+            height: 300px;
+        
+            .navbar{
+                text-align: center;
+                }
+                footer {
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: rgb(106, 103, 112);
+                  
+                  }
